@@ -2,11 +2,11 @@
 
 电机型号：2312A(无点，正螺纹)，适用于大疆精灵3无人机无刷电机。
 
-<img src="1.pictures/2312A无刷电机尺寸1.png" style="zoom: 50%;" /> <img src="1.pictures/2312A无刷电机底部螺丝定位.png" style="zoom: 48%;" /> <img src="1.pictures/2312A无刷电机内部结构.png" style="zoom: 60%;" /> 
+<img src="1.pictures/2312A无刷电机尺寸1.png" style="zoom: 50%;" /> <img src="1.pictures/2312A无刷电机底部螺丝定位.png" style="zoom: 52%;" /> <img src="1.pictures/2312A无刷电机内部结构.png" style="zoom: 83%;" /> 
 
-| KV值 | 工作电压 | 极对数 |
-| ---- | -------- | ------ |
-| 800  | 12V      | 7      |
+| 工作电压 | KV值 | 极对数 |相电阻|
+| ---- | -------- | ------ |------ |
+| 12V | 800    | 7      |待测量|
 
 
 
