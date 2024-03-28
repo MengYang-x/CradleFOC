@@ -36,3 +36,10 @@ STM32CubeMX引脚配置图：
 | IN2       | PA9      | TIM1_CH2              |
 | IN3       | PA10     | TIM1_CH3              |
 
+## 3.2 电流采样ADC引脚分配
+
+| Pin Label | Pin Name | Alternate Function(s) |
+| --------- | -------- | --------------------- |
+| IA        | PA2      | ADC1_IN3              |
+| IB        | PA6      | ADC2_IN3              |
+| IC        | PB1      | ADC1_IN12             |
