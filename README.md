@@ -3,9 +3,12 @@
 - [ ] 20224年3月23日：立项，中文名“摇篮FOC”，英文名“CradleFOC”。
 - [ ] 2024年3月24日：开始设计CradleFOC硬件原理图。
 - [ ] 2024年3月28日：完成CradleFOC硬件原理图设计。
-- [ ] 2024年3月29日：进行PCB LayOUT。
+- [ ] 2024年3月29日：进行PCB Layout。
+- [ ] 2024年4月1日：完成PCB Layout。
 
 # 1. CradleFOC简介
+
+待完善~
 
 添加主控的渲染图
 
@@ -22,7 +25,7 @@
 
 STM32CubeMX引脚配置图：
 
-
+待完善~
 
 ## 3.1 SWD&USART引脚
 
@@ -54,13 +57,55 @@ STM32CubeMX引脚配置图：
 | Pin Label | Pin Name | Alternate Function(s) |
 | --------- | -------- | --------------------- |
 | MA        | PB11     | ADC1_IN14             |
-| MB        | PB12     | ADC1_IN11             |
-| MC        | PB14     | ADC1_IN5              |
+| MB        | PA4      | ADC2_IN17             |
+| MC        | PB12     | ADC1_IN11             |
 | VCC       | PC4      | ADC2_IN5              |
 
 ## 3.4 MOS管温度采样
 
 | Pin Label | Pin Name | Alternate Function(s) |
 | --------- | -------- | --------------------- |
-| NTC       | PA0      | ADC1_IN1              |
+| NTC       | PB2      | ADC2_IN12             |
+
+## 3.5 电位器调速控制
+
+| Pin Label | Pin Name | Alternate Function(s) |
+| --------- | -------- | --------------------- |
+| POT       | PA0      | ADC1_IN1、ADC2_IN1    |
+
+## 3.6 按键控制
+
+| Pin Label | Pin Name | Alternate Function(s) |
+| --------- | -------- | --------------------- |
+| NRST      | PG10     | 复位按键              |
+|KEY1|PC10|GPIO_EXTI10|
+|KEY2|PC11|GPIO_EXTI11|
+
+## 3.7 LCD接口
+
+| Pin Label | Pin Name | Alternate Function(s) |
+| --------- | -------- | --------------------- |
+| LCD_SDA   | PB15     | SPI2_MOSI             |
+| LCD_SCL   | PB13     | SPI2_SCK              |
+| LCD_DC    | PC6      | GPIO_Output           |
+| LCD_RES   | PA11     | GPIO_Output           |
+| LCD_CS    | PA12     | GPIO_Output           |
+| LCD_BLK   | PA15     | GPIO_Output           |
+
+## 3.8 MT6701编码器接口
+
+| Pin Label  | Pin Name | Alternate Function(s) |
+| ---------- | -------- | --------------------- |
+| MT6701_CS  | PB9      | GPIO_Output           |
+| MT6701_SCL | PB3      | SPI1_SCK              |
+| MT6701_SDA | PB4      | SPI1_MISO             |
+
+## 3.9 信号指示灯
+
+外部上拉，低电平点亮。
+
+| Pin Label | Pin Name | Alternate Function(s) |
+| --------- | -------- | --------------------- |
+| LED1      | PC14     | GPIO_Output           |
+| LED2      | PC15     | GPIO_Output           |
 
