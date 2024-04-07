@@ -5,14 +5,13 @@
 - [ ] 2024年3月28日：完成CradleFOC硬件原理图设计。
 - [ ] 2024年3月29日：进行PCB Layout。
 - [ ] 2024年4月1日：完成PCB Layout。
+- [ ] 2024年4月7日：焊接测试完毕。
 
 # 1. CradleFOC简介
 
-待完善~
+<img src="1.硬件设计手册/1.pictures/3D渲染图1.png" style="zoom:60%;" />  
 
-添加主控的渲染图
-
-<img src="1.硬件设计手册/1.pictures/3D渲染图1.png" style="zoom:60%;" /> 
+<img src="pictures/CradleFOC实物图.jpg" style="zoom:30%;" /> 
 
 - 主控：STM32G431CBU6，晶振24MHz，通过时钟分频倍频配置，设置MCU的工作频率为170MHz。
 
@@ -111,3 +110,6 @@ STM32CubeMX引脚配置图：
 | LED1      | PC14     | GPIO_Output           |
 | LED2      | PC15     | GPIO_Output           |
 
+# 4.注意事项
+
+1. GH1.25的连接线，如果使用本项目的相关配件，需要购买反向线序的连接线。如果购买同向的连接线，需要手动更改端子的线序。
