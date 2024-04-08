@@ -26,7 +26,7 @@
 
 STM32CubeMX引脚配置图：
 
-待完善~
+![](pictures/STM32CubeMX引脚配置.png)  
 
 ## 3.1 SWD&USART引脚
 
