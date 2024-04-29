@@ -43,8 +43,9 @@
 					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC/1.Hardware"/>
-					<Add directory="C:/Users/User/Desktop/CradleFOC/LED"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC/UserApp"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/MT6701"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Utils"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -75,8 +76,9 @@
 					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC/1.Hardware"/>
-					<Add directory="C:/Users/User/Desktop/CradleFOC/LED"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC/UserApp"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/MT6701"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Utils"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -414,10 +416,10 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/User/Desktop/CradleFOC/LED/led_test.cpp">
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/MT6701/MT6701.cpp">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/User/Desktop/CradleFOC/LED/led_test.h">
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/MT6701/MT6701.h">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/STM32G431CBUX_FLASH.ld">
@@ -427,6 +429,18 @@
 			<Option target="CradleFOC.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/UserApp/UserMain.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Utils/math_utils.cpp">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Utils/math_utils.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Utils/time_utils.cpp">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Utils/time_utils.h">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/CMakeLists.txt">

@@ -961,32 +961,32 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
 
-LED/led_test.obj: LED/led_test.cpp.obj
+MT6701/MT6701.obj: MT6701/MT6701.cpp.obj
 
-.PHONY : LED/led_test.obj
+.PHONY : MT6701/MT6701.obj
 
 # target to build an object file
-LED/led_test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj
-.PHONY : LED/led_test.cpp.obj
+MT6701/MT6701.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj
+.PHONY : MT6701/MT6701.cpp.obj
 
-LED/led_test.i: LED/led_test.cpp.i
+MT6701/MT6701.i: MT6701/MT6701.cpp.i
 
-.PHONY : LED/led_test.i
+.PHONY : MT6701/MT6701.i
 
 # target to preprocess a source file
-LED/led_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.i
-.PHONY : LED/led_test.cpp.i
+MT6701/MT6701.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.i
+.PHONY : MT6701/MT6701.cpp.i
 
-LED/led_test.s: LED/led_test.cpp.s
+MT6701/MT6701.s: MT6701/MT6701.cpp.s
 
-.PHONY : LED/led_test.s
+.PHONY : MT6701/MT6701.s
 
 # target to generate assembly for a file
-LED/led_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.s
-.PHONY : LED/led_test.cpp.s
+MT6701/MT6701.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s
+.PHONY : MT6701/MT6701.cpp.s
 
 UserApp/UserMain.obj: UserApp/UserMain.cpp.obj
 
@@ -1014,6 +1014,60 @@ UserApp/UserMain.s: UserApp/UserMain.cpp.s
 UserApp/UserMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.s
 .PHONY : UserApp/UserMain.cpp.s
+
+Utils/math_utils.obj: Utils/math_utils.cpp.obj
+
+.PHONY : Utils/math_utils.obj
+
+# target to build an object file
+Utils/math_utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj
+.PHONY : Utils/math_utils.cpp.obj
+
+Utils/math_utils.i: Utils/math_utils.cpp.i
+
+.PHONY : Utils/math_utils.i
+
+# target to preprocess a source file
+Utils/math_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.i
+.PHONY : Utils/math_utils.cpp.i
+
+Utils/math_utils.s: Utils/math_utils.cpp.s
+
+.PHONY : Utils/math_utils.s
+
+# target to generate assembly for a file
+Utils/math_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.s
+.PHONY : Utils/math_utils.cpp.s
+
+Utils/time_utils.obj: Utils/time_utils.cpp.obj
+
+.PHONY : Utils/time_utils.obj
+
+# target to build an object file
+Utils/time_utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj
+.PHONY : Utils/time_utils.cpp.obj
+
+Utils/time_utils.i: Utils/time_utils.cpp.i
+
+.PHONY : Utils/time_utils.i
+
+# target to preprocess a source file
+Utils/time_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.i
+.PHONY : Utils/time_utils.cpp.i
+
+Utils/time_utils.s: Utils/time_utils.cpp.s
+
+.PHONY : Utils/time_utils.s
+
+# target to generate assembly for a file
+Utils/time_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.s
+.PHONY : Utils/time_utils.cpp.s
 
 # Help Target
 help:
@@ -1115,12 +1169,18 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.s
-	@echo ... LED/led_test.obj
-	@echo ... LED/led_test.i
-	@echo ... LED/led_test.s
+	@echo ... MT6701/MT6701.obj
+	@echo ... MT6701/MT6701.i
+	@echo ... MT6701/MT6701.s
 	@echo ... UserApp/UserMain.obj
 	@echo ... UserApp/UserMain.i
 	@echo ... UserApp/UserMain.s
+	@echo ... Utils/math_utils.obj
+	@echo ... Utils/math_utils.i
+	@echo ... Utils/math_utils.s
+	@echo ... Utils/time_utils.obj
+	@echo ... Utils/time_utils.i
+	@echo ... Utils/time_utils.s
 .PHONY : help
 
 

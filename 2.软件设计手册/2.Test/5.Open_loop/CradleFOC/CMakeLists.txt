@@ -52,8 +52,9 @@ include_directories(Core/Inc
         Drivers/CMSIS/Device/ST/STM32G4xx/Include
         Drivers/CMSIS/Include
         1.Hardware
-        LED
         UserApp
+        MT6701
+        Utils
         )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx)
@@ -62,8 +63,9 @@ file(GLOB_RECURSE SOURCES
         "Core/*.*"
         "Drivers/*.*"
         "1.Hardware/*.*"
-        "LED/*.*"
         "UserApp/*.*"
+        "MT6701/*.*"
+        "Utils/*.*"
         )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G431CBUX_FLASH.ld)

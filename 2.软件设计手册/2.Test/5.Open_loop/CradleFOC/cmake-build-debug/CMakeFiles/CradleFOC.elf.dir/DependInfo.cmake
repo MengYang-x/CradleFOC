@@ -25,8 +25,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
   "../Drivers/CMSIS/Include"
   "../1.Hardware"
-  "../LED"
   "../UserApp"
+  "../MT6701"
+  "../Utils"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC/1.Hardware/Serial.c" "C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj"
@@ -77,12 +78,15 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
   "../Drivers/CMSIS/Include"
   "../1.Hardware"
-  "../LED"
   "../UserApp"
+  "../MT6701"
+  "../Utils"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/Desktop/CradleFOC/LED/led_test.cpp" "C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC/MT6701/MT6701.cpp" "C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC/UserApp/UserMain.cpp" "C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC/Utils/math_utils.cpp" "C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC/Utils/time_utils.cpp" "C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -101,8 +105,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
   "../Drivers/CMSIS/Include"
   "../1.Hardware"
-  "../LED"
   "../UserApp"
+  "../MT6701"
+  "../Utils"
   )
 
 # Targets to which this target links.

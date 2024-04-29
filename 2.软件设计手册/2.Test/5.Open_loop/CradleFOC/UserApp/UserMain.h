@@ -18,7 +18,7 @@ void loop();
 #ifdef __cplusplus
 }
 /**********包含C++的H文件**************/
-#include "led_test.h"
+#include "MT6701.h"
 #endif
 
 #endif //CRADLEFOC_USERMAIN_H

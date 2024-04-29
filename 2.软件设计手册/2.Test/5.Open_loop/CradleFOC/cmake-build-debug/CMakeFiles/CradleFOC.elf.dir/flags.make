@@ -8,17 +8,17 @@ ASM_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -
 
 ASM_DEFINES = -DDEBUG -DSTM32G431xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IC:\Users\User\Desktop\CradleFOC\Core\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Device\ST\STM32G4xx\Include -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Include -IC:\Users\User\Desktop\CradleFOC\1.Hardware -IC:\Users\User\Desktop\CradleFOC\LED -IC:\Users\User\Desktop\CradleFOC\UserApp 
+ASM_INCLUDES = -IC:\Users\User\Desktop\CradleFOC\Core\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Device\ST\STM32G4xx\Include -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Include -IC:\Users\User\Desktop\CradleFOC\1.Hardware -IC:\Users\User\Desktop\CradleFOC\UserApp -IC:\Users\User\Desktop\CradleFOC\MT6701 -IC:\Users\User\Desktop\CradleFOC\Utils 
 
 C_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DDEBUG -DSTM32G431xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IC:\Users\User\Desktop\CradleFOC\Core\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Device\ST\STM32G4xx\Include -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Include -IC:\Users\User\Desktop\CradleFOC\1.Hardware -IC:\Users\User\Desktop\CradleFOC\LED -IC:\Users\User\Desktop\CradleFOC\UserApp 
+C_INCLUDES = -IC:\Users\User\Desktop\CradleFOC\Core\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Device\ST\STM32G4xx\Include -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Include -IC:\Users\User\Desktop\CradleFOC\1.Hardware -IC:\Users\User\Desktop\CradleFOC\UserApp -IC:\Users\User\Desktop\CradleFOC\MT6701 -IC:\Users\User\Desktop\CradleFOC\Utils 
 
 CXX_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu++17
 
 CXX_DEFINES = -DDEBUG -DSTM32G431xx -DUSE_HAL_DRIVER
 
-CXX_INCLUDES = -IC:\Users\User\Desktop\CradleFOC\Core\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Device\ST\STM32G4xx\Include -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Include -IC:\Users\User\Desktop\CradleFOC\1.Hardware -IC:\Users\User\Desktop\CradleFOC\LED -IC:\Users\User\Desktop\CradleFOC\UserApp 
+CXX_INCLUDES = -IC:\Users\User\Desktop\CradleFOC\Core\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc -IC:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Device\ST\STM32G4xx\Include -IC:\Users\User\Desktop\CradleFOC\Drivers\CMSIS\Include -IC:\Users\User\Desktop\CradleFOC\1.Hardware -IC:\Users\User\Desktop\CradleFOC\UserApp -IC:\Users\User\Desktop\CradleFOC\MT6701 -IC:\Users\User\Desktop\CradleFOC\Utils 
 

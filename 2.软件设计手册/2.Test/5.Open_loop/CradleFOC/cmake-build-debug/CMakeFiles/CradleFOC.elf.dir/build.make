@@ -471,18 +471,18 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c.s
 
-CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
-CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj: ../LED/led_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\LED\led_test.cpp.obj -c C:\Users\User\Desktop\CradleFOC\LED\led_test.cpp
+CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
+CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj: ../MT6701/MT6701.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\MT6701\MT6701.cpp.obj -c C:\Users\User\Desktop\CradleFOC\MT6701\MT6701.cpp
 
-CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.i"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\CradleFOC\LED\led_test.cpp > CMakeFiles\CradleFOC.elf.dir\LED\led_test.cpp.i
+CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\CradleFOC\MT6701\MT6701.cpp > CMakeFiles\CradleFOC.elf.dir\MT6701\MT6701.cpp.i
 
-CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.s"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\LED\led_test.cpp -o CMakeFiles\CradleFOC.elf.dir\LED\led_test.cpp.s
+CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\MT6701\MT6701.cpp -o CMakeFiles\CradleFOC.elf.dir\MT6701\MT6701.cpp.s
 
 CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj: ../UserApp/UserMain.cpp
@@ -496,6 +496,32 @@ CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.i: cmake_force
 CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.s"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\UserApp\UserMain.cpp -o CMakeFiles\CradleFOC.elf.dir\UserApp\UserMain.cpp.s
+
+CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
+CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj: ../Utils/math_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Utils\math_utils.cpp.obj -c C:\Users\User\Desktop\CradleFOC\Utils\math_utils.cpp
+
+CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\CradleFOC\Utils\math_utils.cpp > CMakeFiles\CradleFOC.elf.dir\Utils\math_utils.cpp.i
+
+CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Utils\math_utils.cpp -o CMakeFiles\CradleFOC.elf.dir\Utils\math_utils.cpp.s
+
+CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
+CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj: ../Utils/time_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Utils\time_utils.cpp.obj -c C:\Users\User\Desktop\CradleFOC\Utils\time_utils.cpp
+
+CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\CradleFOC\Utils\time_utils.cpp > CMakeFiles\CradleFOC.elf.dir\Utils\time_utils.cpp.i
+
+CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Utils\time_utils.cpp -o CMakeFiles\CradleFOC.elf.dir\Utils\time_utils.cpp.s
 
 # Object files for target CradleFOC.elf
 CradleFOC_elf_OBJECTS = \
@@ -530,8 +556,10 @@ CradleFOC_elf_OBJECTS = \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj" \
-"CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj" \
-"CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj"
+"CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj" \
+"CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj" \
+"CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj" \
+"CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj"
 
 # External object files for target CradleFOC.elf
 CradleFOC_elf_EXTERNAL_OBJECTS =
@@ -567,11 +595,13 @@ CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
-CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/LED/led_test.cpp.obj
+CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj
+CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj
+CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/build.make
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable CradleFOC.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable CradleFOC.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CradleFOC.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CradleFOC.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CradleFOC.bin"
