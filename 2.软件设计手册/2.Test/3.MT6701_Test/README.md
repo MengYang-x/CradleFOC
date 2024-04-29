@@ -69,3 +69,4 @@ float MT6701_GetRawAngle(void)
     uint16_t rawData = LL_SPI_ReceiveData16(SPI1);
 ```
 
+需要手动使能SPI

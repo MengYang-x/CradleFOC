@@ -3,17 +3,17 @@
         {
             "name": "3.MT6701_Test",
             "includePath": [
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Core\\Inc",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\STM32G4xx_HAL_Driver\\Inc",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\STM32G4xx_HAL_Driver\\Inc\\Legacy",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\CMSIS\\Device\\ST\\STM32G4xx\\Include",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\CMSIS\\Include",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\1.Hardware",
-                "D:\\18.Keil5\\ARM\\ARMCC\\include",
-                "D:\\18.Keil5\\ARM\\ARMCC\\include\\rw",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\MDK-ARM",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Core\\Src",
-                "f:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\STM32G4xx_HAL_Driver\\Src"
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Core\\Inc",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\STM32G4xx_HAL_Driver\\Inc",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\STM32G4xx_HAL_Driver\\Inc\\Legacy",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\CMSIS\\Device\\ST\\STM32G4xx\\Include",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\CMSIS\\Include",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\1.Hardware",
+                "D:\\Keil536\\ARM\\ARMCC\\include",
+                "D:\\Keil536\\ARM\\ARMCC\\include\\rw",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\MDK-ARM",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Core\\Src",
+                "g:\\9.github仓库\\5.CradleFOC\\2.软件设计手册\\2.Test\\3.MT6701_Test\\Drivers\\STM32G4xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

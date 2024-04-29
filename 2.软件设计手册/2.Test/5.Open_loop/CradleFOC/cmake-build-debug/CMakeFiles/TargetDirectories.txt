@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/CradleFOC.elf.dir
+C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CMakeFiles/edit_cache.dir

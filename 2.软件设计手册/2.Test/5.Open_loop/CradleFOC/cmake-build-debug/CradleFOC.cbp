@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CradleFOC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/User/Desktop/CradleFOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/User/Desktop/CradleFOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CradleFOC.elf">
+				<Option output="C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CradleFOC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/CradleFOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32G431xx"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Core/Inc"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/1.Hardware"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/LED"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/UserApp"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 CradleFOC.elf"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CradleFOC.elf/fast">
+				<Option output="C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CradleFOC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/CradleFOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32G431xx"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Core/Inc"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/1.Hardware"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/LED"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC/UserApp"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 CradleFOC.elf/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/User/Desktop/CradleFOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/CradleFOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/1.Hardware/Serial.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/1.Hardware/Serial.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/dma.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/gpio.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/main.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/spi.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/stm32g4xx_hal_conf.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/stm32g4xx_it.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Inc/usart.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/dma.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/gpio.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/main.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/spi.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/stm32g4xx_hal_msp.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/stm32g4xx_it.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/syscalls.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/sysmem.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/system_stm32g4xx.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Src/usart.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Startup/startup_stm32g431cbux.s">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/LICENSE.txt">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/LICENSE.txt">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_lpuart.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usart.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/LICENSE.txt">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/LED/led_test.cpp">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/LED/led_test.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/STM32G431CBUX_FLASH.ld">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/UserApp/UserMain.cpp">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/UserApp/UserMain.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

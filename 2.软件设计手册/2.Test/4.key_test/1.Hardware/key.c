@@ -38,15 +38,15 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     UNUSED(GPIO_Pin);
 
     // 中断源判断
-    switch (GPIO_Pin) // PC15 ，抢占优先级0，响应优先级0
+    switch (GPIO_Pin)
     {
-    case KEY1_Pin:
+    case KEY1_Pin: // PC10
         if (key_scan(KEY1_GPIO_Port, KEY1_Pin))
         {
             HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
         }
         break;
-    case KEY2_Pin:
+    case KEY2_Pin: // PC11
         if (key_scan(KEY2_GPIO_Port, KEY2_Pin))
         {
             HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
