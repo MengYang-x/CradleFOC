@@ -19,9 +19,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
 #Uncomment for hardware floating point
-#add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
-#add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
-#add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
+add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
 
 #Uncomment for software floating point
 #add_compile_options(-mfloat-abi=soft)
@@ -51,10 +51,11 @@ include_directories(Core/Inc
         Drivers/STM32G4xx_HAL_Driver/Inc/Legacy
         Drivers/CMSIS/Device/ST/STM32G4xx/Include
         Drivers/CMSIS/Include
-        1.Hardware
+        Serial
         UserApp
         MT6701
         Utils
+        Ctrl
         )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx)
@@ -62,10 +63,11 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx)
 file(GLOB_RECURSE SOURCES
         "Core/*.*"
         "Drivers/*.*"
-        "1.Hardware/*.*"
+        "Serial/*.*"
         "UserApp/*.*"
         "MT6701/*.*"
         "Utils/*.*"
+        "Ctrl/*.*"
         )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G431CBUX_FLASH.ld)
@@ -73,6 +75,13 @@ set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G431CBUX_FLASH.ld)
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 add_link_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
+
+# DSP
+add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING)
+include_directories("Middlewares/ST/ARM/DSP/Inc")
+link_directories(Middlewares/ST/ARM/DSP/Lib)
+link_libraries(libarm_cortexM4lf_math.a)
+
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 

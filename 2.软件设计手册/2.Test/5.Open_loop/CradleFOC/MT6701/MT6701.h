@@ -18,15 +18,9 @@ private:
     float full_angle_last;
 public:
 
-//    float velocity; // 转速
-
-
     float GetRawAngle();
-
     float GetFullAngle();
-
     float GetElAngle();
-
     float GetVelocity();
 };
 

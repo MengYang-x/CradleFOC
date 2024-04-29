@@ -76,22 +76,9 @@ include CMakeFiles/CradleFOC.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CradleFOC.elf.dir/flags.make
 
-CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
-CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj: ../1.Hardware/Serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\1.Hardware\Serial.c.obj   -c C:\Users\User\Desktop\CradleFOC\1.Hardware\Serial.c
-
-CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.i"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\User\Desktop\CradleFOC\1.Hardware\Serial.c > CMakeFiles\CradleFOC.elf.dir\1.Hardware\Serial.c.i
-
-CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.s"
-	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\Desktop\CradleFOC\1.Hardware\Serial.c -o CMakeFiles\CradleFOC.elf.dir\1.Hardware\Serial.c.s
-
 CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\dma.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\dma.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -104,7 +91,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\gpio.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\gpio.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -117,7 +104,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\main.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\main.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/spi.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/spi.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\spi.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\spi.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -143,7 +130,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/spi.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Core/Src/stm32g4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\stm32g4xx_hal_msp.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\stm32g4xx_hal_msp.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_hal_msp.c.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Core/Src/stm32g4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\stm32g4xx_it.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\stm32g4xx_it.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\syscalls.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\syscalls.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\sysmem.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\sysmem.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -195,7 +182,7 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Core/Src/system_stm32g4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\system_stm32g4xx.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\system_stm32g4xx.c
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.i: cmake_force
@@ -205,6 +192,19 @@ CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.i: cmake_force
 CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.s"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Core\Src\system_stm32g4xx.c -o CMakeFiles\CradleFOC.elf.dir\Core\Src\system_stm32g4xx.c.s
+
+CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
+CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Src\tim.c.obj   -c C:\Users\User\Desktop\CradleFOC\Core\Src\tim.c
+
+CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\User\Desktop\CradleFOC\Core\Src\tim.c > CMakeFiles\CradleFOC.elf.dir\Core\Src\tim.c.i
+
+CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Core\Src\tim.c -o CMakeFiles\CradleFOC.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/CradleFOC.elf.dir/Core/Src/usart.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
@@ -224,9 +224,22 @@ CMakeFiles/CradleFOC.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj: ../Core/S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/CradleFOC.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Core\Startup\startup_stm32g431cbux.s.obj -c C:\Users\User\Desktop\CradleFOC\Core\Startup\startup_stm32g431cbux.s
 
+CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
+CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.obj: ../Ctrl/SVPWM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Ctrl\SVPWM.cpp.obj -c C:\Users\User\Desktop\CradleFOC\Ctrl\SVPWM.cpp
+
+CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\CradleFOC\Ctrl\SVPWM.cpp > CMakeFiles\CradleFOC.elf.dir\Ctrl\SVPWM.cpp.i
+
+CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Ctrl\SVPWM.cpp -o CMakeFiles\CradleFOC.elf.dir\Ctrl\SVPWM.cpp.s
+
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i: cmake_force
@@ -239,7 +252,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s:
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i: cmake_force
@@ -252,7 +265,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cort
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i: cmake_force
@@ -265,7 +278,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i: cmake_force
@@ -278,7 +291,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i: cmake_force
@@ -291,7 +304,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i: cmake_force
@@ -304,7 +317,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flas
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i: cmake_force
@@ -317,7 +330,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flas
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -330,7 +343,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flas
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i: cmake_force
@@ -343,7 +356,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i: cmake_force
@@ -356,7 +369,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i: cmake_force
@@ -369,7 +382,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i: cmake_force
@@ -382,7 +395,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i: cmake_force
@@ -395,7 +408,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i: cmake_force
@@ -408,7 +421,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i: cmake_force
@@ -421,7 +434,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.i: cmake_force
@@ -434,7 +447,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.i: cmake_force
@@ -447,7 +460,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.i: cmake_force
@@ -460,7 +473,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c.obj   -c C:\Users\User\Desktop\CradleFOC\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c
 
 CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.i: cmake_force
@@ -473,7 +486,7 @@ CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart
 
 CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj: ../MT6701/MT6701.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\MT6701\MT6701.cpp.obj -c C:\Users\User\Desktop\CradleFOC\MT6701\MT6701.cpp
 
 CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.i: cmake_force
@@ -484,9 +497,22 @@ CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\CradleFOC\MT6701\MT6701.cpp -o CMakeFiles\CradleFOC.elf.dir\MT6701\MT6701.cpp.s
 
+CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
+CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj: ../Serial/Serial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Serial\Serial.c.obj   -c C:\Users\User\Desktop\CradleFOC\Serial\Serial.c
+
+CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.i"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\User\Desktop\CradleFOC\Serial\Serial.c > CMakeFiles\CradleFOC.elf.dir\Serial\Serial.c.i
+
+CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.s"
+	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\User\Desktop\CradleFOC\Serial\Serial.c -o CMakeFiles\CradleFOC.elf.dir\Serial\Serial.c.s
+
 CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj: ../UserApp/UserMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\UserApp\UserMain.cpp.obj -c C:\Users\User\Desktop\CradleFOC\UserApp\UserMain.cpp
 
 CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.i: cmake_force
@@ -499,7 +525,7 @@ CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj: ../Utils/math_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Utils\math_utils.cpp.obj -c C:\Users\User\Desktop\CradleFOC\Utils\math_utils.cpp
 
 CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.i: cmake_force
@@ -512,7 +538,7 @@ CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.s: cmake_force
 
 CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj: CMakeFiles/CradleFOC.elf.dir/flags.make
 CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj: ../Utils/time_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj"
 	D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CradleFOC.elf.dir\Utils\time_utils.cpp.obj -c C:\Users\User\Desktop\CradleFOC\Utils\time_utils.cpp
 
 CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.i: cmake_force
@@ -525,7 +551,6 @@ CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.s: cmake_force
 
 # Object files for target CradleFOC.elf
 CradleFOC_elf_OBJECTS = \
-"CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.obj" \
@@ -535,8 +560,10 @@ CradleFOC_elf_OBJECTS = \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.obj" \
+"CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj" \
+"CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj" \
@@ -557,6 +584,7 @@ CradleFOC_elf_OBJECTS = \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj" \
+"CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj" \
 "CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj" \
 "CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj"
@@ -564,7 +592,6 @@ CradleFOC_elf_OBJECTS = \
 # External object files for target CradleFOC.elf
 CradleFOC_elf_EXTERNAL_OBJECTS =
 
-CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/dma.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/gpio.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/main.c.obj
@@ -574,8 +601,10 @@ CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/stm32g4xx_it.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/syscalls.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/sysmem.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.obj
+CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Src/usart.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj
+CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
@@ -596,12 +625,13 @@ CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.obj
+CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/UserApp/UserMain.cpp.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Utils/math_utils.cpp.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/Utils/time_utils.cpp.obj
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/build.make
 CradleFOC.elf: CMakeFiles/CradleFOC.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable CradleFOC.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Desktop\CradleFOC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable CradleFOC.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CradleFOC.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CradleFOC.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/User/Desktop/CradleFOC/cmake-build-debug/CradleFOC.bin"

@@ -142,33 +142,6 @@ CradleFOC.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/build
 .PHONY : CradleFOC.elf/fast
 
-1.Hardware/Serial.obj: 1.Hardware/Serial.c.obj
-
-.PHONY : 1.Hardware/Serial.obj
-
-# target to build an object file
-1.Hardware/Serial.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.obj
-.PHONY : 1.Hardware/Serial.c.obj
-
-1.Hardware/Serial.i: 1.Hardware/Serial.c.i
-
-.PHONY : 1.Hardware/Serial.i
-
-# target to preprocess a source file
-1.Hardware/Serial.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.i
-.PHONY : 1.Hardware/Serial.c.i
-
-1.Hardware/Serial.s: 1.Hardware/Serial.c.s
-
-.PHONY : 1.Hardware/Serial.s
-
-# target to generate assembly for a file
-1.Hardware/Serial.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/1.Hardware/Serial.c.s
-.PHONY : 1.Hardware/Serial.c.s
-
 Core/Src/dma.obj: Core/Src/dma.c.obj
 
 .PHONY : Core/Src/dma.obj
@@ -412,6 +385,33 @@ Core/Src/system_stm32g4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Core/Src/system_stm32g4xx.c.s
 .PHONY : Core/Src/system_stm32g4xx.c.s
 
+Core/Src/tim.obj: Core/Src/tim.c.obj
+
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
 Core/Src/usart.obj: Core/Src/usart.c.obj
 
 .PHONY : Core/Src/usart.obj
@@ -447,6 +447,33 @@ Core/Startup/startup_stm32g431cbux.obj: Core/Startup/startup_stm32g431cbux.s.obj
 Core/Startup/startup_stm32g431cbux.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj
 .PHONY : Core/Startup/startup_stm32g431cbux.s.obj
+
+Ctrl/SVPWM.obj: Ctrl/SVPWM.cpp.obj
+
+.PHONY : Ctrl/SVPWM.obj
+
+# target to build an object file
+Ctrl/SVPWM.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.obj
+.PHONY : Ctrl/SVPWM.cpp.obj
+
+Ctrl/SVPWM.i: Ctrl/SVPWM.cpp.i
+
+.PHONY : Ctrl/SVPWM.i
+
+# target to preprocess a source file
+Ctrl/SVPWM.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.i
+.PHONY : Ctrl/SVPWM.cpp.i
+
+Ctrl/SVPWM.s: Ctrl/SVPWM.cpp.s
+
+.PHONY : Ctrl/SVPWM.s
+
+# target to generate assembly for a file
+Ctrl/SVPWM.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.s
+.PHONY : Ctrl/SVPWM.cpp.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 
@@ -988,6 +1015,33 @@ MT6701/MT6701.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s
 .PHONY : MT6701/MT6701.cpp.s
 
+Serial/Serial.obj: Serial/Serial.c.obj
+
+.PHONY : Serial/Serial.obj
+
+# target to build an object file
+Serial/Serial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj
+.PHONY : Serial/Serial.c.obj
+
+Serial/Serial.i: Serial/Serial.c.i
+
+.PHONY : Serial/Serial.i
+
+# target to preprocess a source file
+Serial/Serial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.i
+.PHONY : Serial/Serial.c.i
+
+Serial/Serial.s: Serial/Serial.c.s
+
+.PHONY : Serial/Serial.s
+
+# target to generate assembly for a file
+Serial/Serial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.s
+.PHONY : Serial/Serial.c.s
+
 UserApp/UserMain.obj: UserApp/UserMain.cpp.obj
 
 .PHONY : UserApp/UserMain.obj
@@ -1078,9 +1132,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CradleFOC.elf
-	@echo ... 1.Hardware/Serial.obj
-	@echo ... 1.Hardware/Serial.i
-	@echo ... 1.Hardware/Serial.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s
@@ -1108,10 +1159,16 @@ help:
 	@echo ... Core/Src/system_stm32g4xx.obj
 	@echo ... Core/Src/system_stm32g4xx.i
 	@echo ... Core/Src/system_stm32g4xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32g431cbux.obj
+	@echo ... Ctrl/SVPWM.obj
+	@echo ... Ctrl/SVPWM.i
+	@echo ... Ctrl/SVPWM.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s
@@ -1172,6 +1229,9 @@ help:
 	@echo ... MT6701/MT6701.obj
 	@echo ... MT6701/MT6701.i
 	@echo ... MT6701/MT6701.s
+	@echo ... Serial/Serial.obj
+	@echo ... Serial/Serial.i
+	@echo ... Serial/Serial.s
 	@echo ... UserApp/UserMain.obj
 	@echo ... UserApp/UserMain.i
 	@echo ... UserApp/UserMain.s
