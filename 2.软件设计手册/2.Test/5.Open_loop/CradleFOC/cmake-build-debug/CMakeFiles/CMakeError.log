@@ -22,19 +22,3 @@ exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2.exe: error: ld returned 1 exit status
 
 
-Determining if the C compiler works failed with the following output:
-Change Dir: G:/9.github仓库/5.CradleFOC/2.软件设计手册/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):D:/mingw64/bin/mingw32-make.exe cmTC_5b87b/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5b87b.dir\build.make CMakeFiles/cmTC_5b87b.dir/build
-mingw32-make.exe[1]: Entering directory 'G:/9.github仓库/5.CradleFOC/2.软件设计手册/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5b87b.dir/testCCompiler.c.obj
-D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe    -o CMakeFiles\cmTC_5b87b.dir\testCCompiler.c.obj   -c G:\9.github浠撳簱\5.CradleFOC\2.杞欢璁捐鎵嬪唽\2.Test\5.Open_loop\CradleFOC\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-arm-none-eabi-gcc.exe: error: G:\9.github浠撳簱\5.CradleFOC\2.杞欢璁捐鎵嬪唽\2.Test\5.Open_loop\CradleFOC\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
-arm-none-eabi-gcc.exe: fatal error: no input files
-compilation terminated.
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5b87b.dir\build.make:85: CMakeFiles/cmTC_5b87b.dir/testCCompiler.c.obj] Error 1
-mingw32-make.exe[1]: Leaving directory 'G:/9.github仓库/5.CradleFOC/2.软件设计手册/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:140: cmTC_5b87b/fast] Error 2
-
-
-

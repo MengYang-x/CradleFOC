@@ -40,7 +40,7 @@ void stop_TIM_CHx() {
 void setPhaseVoltage(float Uq, float Ud, float el_angle) {
     el_angle = _normalizeAngle(el_angle);
 
-    // 待添加限制Uq范围的语句，Uq最大值等于Udc/sqrt(3)
+    // Ud、Uq最大值等于Udc/sqrt(3)
     Uq = _constrain(Uq, -6.0f, 6.0f);
     Ud = _constrain(Ud, -6.0f, 6.0f);
 
