@@ -82,7 +82,6 @@ include_directories("Middlewares/ST/ARM/DSP/Inc")
 link_directories(Middlewares/ST/ARM/DSP/Lib)
 link_libraries(libarm_cortexM4lf_math.a)
 
-
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)

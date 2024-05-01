@@ -174,10 +174,22 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/Core/Startup/startup_stm32g431cbux.s">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Ctrl/Button.cpp">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Ctrl/Button.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/Ctrl/SVPWM.cpp">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/Ctrl/SVPWM.h">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Ctrl/motor.cpp">
+			<Option target="CradleFOC.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Ctrl/motor.h">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h">
@@ -444,7 +456,7 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/STM32G431CBUX_FLASH.ld">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/User/Desktop/CradleFOC/Serial/Serial.c">
+		<Unit filename="C:/Users/User/Desktop/CradleFOC/Serial/Serial.cpp">
 			<Option target="CradleFOC.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC/Serial/Serial.h">

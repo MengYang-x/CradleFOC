@@ -448,6 +448,33 @@ Core/Startup/startup_stm32g431cbux.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj
 .PHONY : Core/Startup/startup_stm32g431cbux.s.obj
 
+Ctrl/Button.obj: Ctrl/Button.cpp.obj
+
+.PHONY : Ctrl/Button.obj
+
+# target to build an object file
+Ctrl/Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/Button.cpp.obj
+.PHONY : Ctrl/Button.cpp.obj
+
+Ctrl/Button.i: Ctrl/Button.cpp.i
+
+.PHONY : Ctrl/Button.i
+
+# target to preprocess a source file
+Ctrl/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/Button.cpp.i
+.PHONY : Ctrl/Button.cpp.i
+
+Ctrl/Button.s: Ctrl/Button.cpp.s
+
+.PHONY : Ctrl/Button.s
+
+# target to generate assembly for a file
+Ctrl/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/Button.cpp.s
+.PHONY : Ctrl/Button.cpp.s
+
 Ctrl/SVPWM.obj: Ctrl/SVPWM.cpp.obj
 
 .PHONY : Ctrl/SVPWM.obj
@@ -474,6 +501,33 @@ Ctrl/SVPWM.s: Ctrl/SVPWM.cpp.s
 Ctrl/SVPWM.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/SVPWM.cpp.s
 .PHONY : Ctrl/SVPWM.cpp.s
+
+Ctrl/motor.obj: Ctrl/motor.cpp.obj
+
+.PHONY : Ctrl/motor.obj
+
+# target to build an object file
+Ctrl/motor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/motor.cpp.obj
+.PHONY : Ctrl/motor.cpp.obj
+
+Ctrl/motor.i: Ctrl/motor.cpp.i
+
+.PHONY : Ctrl/motor.i
+
+# target to preprocess a source file
+Ctrl/motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/motor.cpp.i
+.PHONY : Ctrl/motor.cpp.i
+
+Ctrl/motor.s: Ctrl/motor.cpp.s
+
+.PHONY : Ctrl/motor.s
+
+# target to generate assembly for a file
+Ctrl/motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Ctrl/motor.cpp.s
+.PHONY : Ctrl/motor.cpp.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 
@@ -1015,32 +1069,32 @@ MT6701/MT6701.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/MT6701/MT6701.cpp.s
 .PHONY : MT6701/MT6701.cpp.s
 
-Serial/Serial.obj: Serial/Serial.c.obj
+Serial/Serial.obj: Serial/Serial.cpp.obj
 
 .PHONY : Serial/Serial.obj
 
 # target to build an object file
-Serial/Serial.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.obj
-.PHONY : Serial/Serial.c.obj
+Serial/Serial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.cpp.obj
+.PHONY : Serial/Serial.cpp.obj
 
-Serial/Serial.i: Serial/Serial.c.i
+Serial/Serial.i: Serial/Serial.cpp.i
 
 .PHONY : Serial/Serial.i
 
 # target to preprocess a source file
-Serial/Serial.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.i
-.PHONY : Serial/Serial.c.i
+Serial/Serial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.cpp.i
+.PHONY : Serial/Serial.cpp.i
 
-Serial/Serial.s: Serial/Serial.c.s
+Serial/Serial.s: Serial/Serial.cpp.s
 
 .PHONY : Serial/Serial.s
 
 # target to generate assembly for a file
-Serial/Serial.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.c.s
-.PHONY : Serial/Serial.c.s
+Serial/Serial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC.elf.dir\build.make CMakeFiles/CradleFOC.elf.dir/Serial/Serial.cpp.s
+.PHONY : Serial/Serial.cpp.s
 
 UserApp/UserMain.obj: UserApp/UserMain.cpp.obj
 
@@ -1166,9 +1220,15 @@ help:
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32g431cbux.obj
+	@echo ... Ctrl/Button.obj
+	@echo ... Ctrl/Button.i
+	@echo ... Ctrl/Button.s
 	@echo ... Ctrl/SVPWM.obj
 	@echo ... Ctrl/SVPWM.i
 	@echo ... Ctrl/SVPWM.s
+	@echo ... Ctrl/motor.obj
+	@echo ... Ctrl/motor.i
+	@echo ... Ctrl/motor.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s

@@ -1,5 +1,41 @@
-"D:\Clion\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\User\Desktop\CradleFOC
--- Minimal optimization, debug info included
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/User/Desktop/CradleFOC/cmake-build-debug
+"D:\Clion\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\9.github仓库\5.CradleFOC\2.软件设计手册\2.Test\5.Open_loop\CradleFOC
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe - broken
+CMake Error at D:/Clion/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "D:/Clion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: G:/9.github浠撳簱/5.CradleFOC/2.杞欢璁捐鎵嬪唽/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):D:/mingw64/bin/mingw32-make.exe cmTC_5b87b/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5b87b.dir\build.make CMakeFiles/cmTC_5b87b.dir/build
+    mingw32-make.exe[1]: Entering directory 'G:/9.github浠撳簱/5.CradleFOC/2.杞欢璁捐鎵嬪唽/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_5b87b.dir/testCCompiler.c.obj
+    D:\Clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe    -o CMakeFiles\cmTC_5b87b.dir\testCCompiler.c.obj   -c G:\9.github娴犳挸绨盶5.CradleFOC\2.鏉烆垯娆㈢拋鎹愵吀閹靛鍞絓2.Test\5.Open_loop\CradleFOC\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    arm-none-eabi-gcc.exe: error: G:\9.github娴犳挸绨盶5.CradleFOC\2.鏉烆垯娆㈢拋鎹愵吀閹靛鍞絓2.Test\5.Open_loop\CradleFOC\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    arm-none-eabi-gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5b87b.dir\build.make:85: CMakeFiles/cmTC_5b87b.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'G:/9.github浠撳簱/5.CradleFOC/2.杞欢璁捐鎵嬪唽/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:140: cmTC_5b87b/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "G:/9.github浠撳簱/5.CradleFOC/2.杞欢璁捐鎵嬪唽/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "G:/9.github浠撳簱/5.CradleFOC/2.杞欢璁捐鎵嬪唽/2.Test/5.Open_loop/CradleFOC/cmake-build-debug/CMakeFiles/CMakeError.log".
