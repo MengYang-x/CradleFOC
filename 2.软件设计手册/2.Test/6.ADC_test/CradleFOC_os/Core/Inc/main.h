@@ -67,6 +67,12 @@ void Error_Handler(void);
 #define KEY2_Pin GPIO_PIN_11
 #define KEY2_GPIO_Port GPIOC
 #define KEY2_EXTI_IRQn EXTI15_10_IRQn
+#define MT6701_SCL_Pin GPIO_PIN_3
+#define MT6701_SCL_GPIO_Port GPIOB
+#define MT6701_SDA_Pin GPIO_PIN_4
+#define MT6701_SDA_GPIO_Port GPIOB
+#define MT6701_CS_Pin GPIO_PIN_9
+#define MT6701_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

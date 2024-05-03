@@ -10,6 +10,7 @@
 #include "cmsis_os.h"
 #include "SVPWM.h"
 #include "motor.h"
+#include "MT6701.h"
 
 
 extern osThreadId myTask02_LOGHandle;
@@ -44,6 +45,13 @@ void task_log() {
 
 #if LOG_Duty
     log_DMA_TX("[Ta,Tb,Tc]:%f,%f,%f\r\n", Ta, Tb, Tc);
+#endif
+
+#if LOG_MT6701
+//    float angle = mt6701.GetRawAngle();
+    float vel = mt6701.GetVelocity();
+    log_DMA_TX("angle:%f\r\n", vel);
+
 #endif
 
 }

@@ -41,6 +41,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/dma.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/gpio.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/main.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Core/Src/spi.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/stm32g4xx_hal_msp.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/stm32g4xx_hal_timebase_tim.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/stm32g4xx_it.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj"
@@ -62,6 +63,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
@@ -109,9 +112,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/User/Desktop/CradleFOC_os/Ctrl/Button.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Ctrl/motor.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Ctrl/motor.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/MT6701/MT6701.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/UserAPP/Serial.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Utils/math_utils.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Utils/time_utils.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

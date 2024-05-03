@@ -6,7 +6,7 @@
 #include "SVPWM.h"
 #include "stdint.h"
 
-const uint8_t polePairs =7; // 无刷电机的极对数
+
 
 /**
  * @brief 开环运行测试

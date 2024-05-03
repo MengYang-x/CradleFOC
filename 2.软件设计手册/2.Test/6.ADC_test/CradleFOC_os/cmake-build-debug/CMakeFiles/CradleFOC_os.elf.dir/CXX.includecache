@@ -256,6 +256,16 @@ stm32g4xx_hal_rcc_ex.h
 stm32g4xx_hal_def.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+stm32g4xx_hal_def.h
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+stm32g4xx_hal_spi_ex.h
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+stm32g4xx_hal_def.h
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
 stm32g4xx_hal_def.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
@@ -275,6 +285,10 @@ stm32g4xx_hal_uart_ex.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
 stm32g4xx_hal_def.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+
+../MT6701/MT6701.h
+stdint.h
+../MT6701/stdint.h
 
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 FreeRTOS.h
@@ -483,6 +497,8 @@ SVPWM.h
 C:/Users/User/Desktop/CradleFOC_os/UserAPP/SVPWM.h
 motor.h
 C:/Users/User/Desktop/CradleFOC_os/UserAPP/motor.h
+MT6701.h
+C:/Users/User/Desktop/CradleFOC_os/UserAPP/MT6701.h
 
 C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.h
 
