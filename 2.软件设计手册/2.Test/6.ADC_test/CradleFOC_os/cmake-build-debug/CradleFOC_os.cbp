@@ -42,6 +42,7 @@
 					<Add directory="C:/Users/User/Desktop/CradleFOC_os/UserAPP"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC_os/Ctrl"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC_os/MT6701"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC_os/Utils"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -81,6 +82,7 @@
 					<Add directory="C:/Users/User/Desktop/CradleFOC_os/UserAPP"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC_os/Ctrl"/>
 					<Add directory="C:/Users/User/Desktop/CradleFOC_os/MT6701"/>
+					<Add directory="C:/Users/User/Desktop/CradleFOC_os/Utils"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -134,6 +136,9 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/stm32g4xx_it.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/tim.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/usart.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -167,6 +172,9 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/system_stm32g4xx.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/tim.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/usart.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -177,6 +185,18 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Ctrl/Button.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.cpp">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Ctrl/motor.cpp">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Ctrl/motor.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h">
@@ -359,6 +379,9 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_tim.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usart.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -528,6 +551,12 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Utils/math_utils.cpp">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Utils/math_utils.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/CMakeLists.txt">

@@ -412,6 +412,33 @@ Core/Src/system_stm32g4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.s
 .PHONY : Core/Src/system_stm32g4xx.c.s
 
+Core/Src/tim.obj: Core/Src/tim.c.obj
+
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
 Core/Src/usart.obj: Core/Src/usart.c.obj
 
 .PHONY : Core/Src/usart.obj
@@ -474,6 +501,60 @@ Ctrl/Button.s: Ctrl/Button.cpp.s
 Ctrl/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.s
 .PHONY : Ctrl/Button.cpp.s
+
+Ctrl/SVPWM.obj: Ctrl/SVPWM.cpp.obj
+
+.PHONY : Ctrl/SVPWM.obj
+
+# target to build an object file
+Ctrl/SVPWM.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj
+.PHONY : Ctrl/SVPWM.cpp.obj
+
+Ctrl/SVPWM.i: Ctrl/SVPWM.cpp.i
+
+.PHONY : Ctrl/SVPWM.i
+
+# target to preprocess a source file
+Ctrl/SVPWM.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.i
+.PHONY : Ctrl/SVPWM.cpp.i
+
+Ctrl/SVPWM.s: Ctrl/SVPWM.cpp.s
+
+.PHONY : Ctrl/SVPWM.s
+
+# target to generate assembly for a file
+Ctrl/SVPWM.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.s
+.PHONY : Ctrl/SVPWM.cpp.s
+
+Ctrl/motor.obj: Ctrl/motor.cpp.obj
+
+.PHONY : Ctrl/motor.obj
+
+# target to build an object file
+Ctrl/motor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/motor.cpp.obj
+.PHONY : Ctrl/motor.cpp.obj
+
+Ctrl/motor.i: Ctrl/motor.cpp.i
+
+.PHONY : Ctrl/motor.i
+
+# target to preprocess a source file
+Ctrl/motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/motor.cpp.i
+.PHONY : Ctrl/motor.cpp.i
+
+Ctrl/motor.s: Ctrl/motor.cpp.s
+
+.PHONY : Ctrl/motor.s
+
+# target to generate assembly for a file
+Ctrl/motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Ctrl/motor.cpp.s
+.PHONY : Ctrl/motor.cpp.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 
@@ -1258,6 +1339,33 @@ UserAPP/UserAPP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.s
 .PHONY : UserAPP/UserAPP.cpp.s
 
+Utils/math_utils.obj: Utils/math_utils.cpp.obj
+
+.PHONY : Utils/math_utils.obj
+
+# target to build an object file
+Utils/math_utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.obj
+.PHONY : Utils/math_utils.cpp.obj
+
+Utils/math_utils.i: Utils/math_utils.cpp.i
+
+.PHONY : Utils/math_utils.i
+
+# target to preprocess a source file
+Utils/math_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.i
+.PHONY : Utils/math_utils.cpp.i
+
+Utils/math_utils.s: Utils/math_utils.cpp.s
+
+.PHONY : Utils/math_utils.s
+
+# target to generate assembly for a file
+Utils/math_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.s
+.PHONY : Utils/math_utils.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1297,6 +1405,9 @@ help:
 	@echo ... Core/Src/system_stm32g4xx.obj
 	@echo ... Core/Src/system_stm32g4xx.i
 	@echo ... Core/Src/system_stm32g4xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
@@ -1304,6 +1415,12 @@ help:
 	@echo ... Ctrl/Button.obj
 	@echo ... Ctrl/Button.i
 	@echo ... Ctrl/Button.s
+	@echo ... Ctrl/SVPWM.obj
+	@echo ... Ctrl/SVPWM.i
+	@echo ... Ctrl/SVPWM.s
+	@echo ... Ctrl/motor.obj
+	@echo ... Ctrl/motor.i
+	@echo ... Ctrl/motor.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s
@@ -1391,6 +1508,9 @@ help:
 	@echo ... UserAPP/UserAPP.obj
 	@echo ... UserAPP/UserAPP.i
 	@echo ... UserAPP/UserAPP.s
+	@echo ... Utils/math_utils.obj
+	@echo ... Utils/math_utils.i
+	@echo ... Utils/math_utils.s
 .PHONY : help
 
 

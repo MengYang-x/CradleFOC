@@ -58,9 +58,15 @@ include_directories(Core/Inc
         UserAPP
         Ctrl
         MT6701
+        Utils
         )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx)
+# DSP
+add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING)
+include_directories("Middlewares/ST/ARM/DSP/Inc")
+link_directories(Middlewares/ST/ARM/DSP/Lib)
+link_libraries(libarm_cortexM4lf_math.a)
 
 file(GLOB_RECURSE SOURCES
         "Library/*.*"
@@ -70,6 +76,7 @@ file(GLOB_RECURSE SOURCES
         "UserAPP/*.*"
         "Ctrl/*.*"
         "MT6701/*.*"
+        "Utils/*.*"
         )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G431CBUX_FLASH.ld)

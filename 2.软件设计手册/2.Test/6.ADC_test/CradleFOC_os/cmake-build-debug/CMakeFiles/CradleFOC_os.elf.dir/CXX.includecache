@@ -90,6 +90,10 @@ stm32g4xx_hal_usart.h
 stm32g4xx_hal_wwdg.h
 ../Core/Inc/stm32g4xx_hal_wwdg.h
 
+../Ctrl/SVPWM.h
+
+../Ctrl/motor.h
+
 ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
 core_cm4.h
 ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/core_cm4.h
@@ -475,6 +479,10 @@ task.h
 C:/Users/User/Desktop/CradleFOC_os/UserAPP/task.h
 cmsis_os.h
 C:/Users/User/Desktop/CradleFOC_os/UserAPP/cmsis_os.h
+SVPWM.h
+C:/Users/User/Desktop/CradleFOC_os/UserAPP/SVPWM.h
+motor.h
+C:/Users/User/Desktop/CradleFOC_os/UserAPP/motor.h
 
 C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.h
 

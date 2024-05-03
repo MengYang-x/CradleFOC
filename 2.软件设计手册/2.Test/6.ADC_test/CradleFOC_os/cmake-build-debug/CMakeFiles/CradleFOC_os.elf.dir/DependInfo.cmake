@@ -34,6 +34,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../UserAPP"
   "../Ctrl"
   "../MT6701"
+  "../Utils"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/app_freertos.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj"
@@ -46,6 +47,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/syscalls.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/syscalls.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/sysmem.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/sysmem.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/system_stm32g4xx.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Core/Src/tim.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/usart.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
@@ -101,11 +103,15 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../UserAPP"
   "../Ctrl"
   "../MT6701"
+  "../Utils"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/User/Desktop/CradleFOC_os/Ctrl/Button.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Ctrl/motor.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Ctrl/motor.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/UserAPP/Serial.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Utils/math_utils.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -133,6 +139,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../UserAPP"
   "../Ctrl"
   "../MT6701"
+  "../Utils"
   )
 
 # Targets to which this target links.
