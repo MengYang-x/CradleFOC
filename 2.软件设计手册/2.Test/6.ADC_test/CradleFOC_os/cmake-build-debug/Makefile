@@ -142,6 +142,33 @@ CradleFOC_os.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/build
 .PHONY : CradleFOC_os.elf/fast
 
+Core/Src/adc.obj: Core/Src/adc.c.obj
+
+.PHONY : Core/Src/adc.obj
+
+# target to build an object file
+Core/Src/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj
+.PHONY : Core/Src/adc.c.obj
+
+Core/Src/adc.i: Core/Src/adc.c.i
+
+.PHONY : Core/Src/adc.i
+
+# target to preprocess a source file
+Core/Src/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.i
+.PHONY : Core/Src/adc.c.i
+
+Core/Src/adc.s: Core/Src/adc.c.s
+
+.PHONY : Core/Src/adc.s
+
+# target to generate assembly for a file
+Core/Src/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.s
+.PHONY : Core/Src/adc.c.s
+
 Core/Src/app_freertos.obj: Core/Src/app_freertos.c.obj
 
 .PHONY : Core/Src/app_freertos.obj
@@ -609,6 +636,60 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s: Drivers/STM32G4xx_HAL_Driver/S
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
 
@@ -1096,6 +1177,33 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
 
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.s
+
 MT6701/MT6701.obj: MT6701/MT6701.cpp.obj
 
 .PHONY : MT6701/MT6701.obj
@@ -1447,6 +1555,33 @@ UserAPP/UserAPP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.s
 .PHONY : UserAPP/UserAPP.cpp.s
 
+Utils/adc_utils.obj: Utils/adc_utils.cpp.obj
+
+.PHONY : Utils/adc_utils.obj
+
+# target to build an object file
+Utils/adc_utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj
+.PHONY : Utils/adc_utils.cpp.obj
+
+Utils/adc_utils.i: Utils/adc_utils.cpp.i
+
+.PHONY : Utils/adc_utils.i
+
+# target to preprocess a source file
+Utils/adc_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.i
+.PHONY : Utils/adc_utils.cpp.i
+
+Utils/adc_utils.s: Utils/adc_utils.cpp.s
+
+.PHONY : Utils/adc_utils.s
+
+# target to generate assembly for a file
+Utils/adc_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.s
+.PHONY : Utils/adc_utils.cpp.s
+
 Utils/math_utils.obj: Utils/math_utils.cpp.obj
 
 .PHONY : Utils/math_utils.obj
@@ -1510,6 +1645,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CradleFOC_os.elf
+	@echo ... Core/Src/adc.obj
+	@echo ... Core/Src/adc.i
+	@echo ... Core/Src/adc.s
 	@echo ... Core/Src/app_freertos.obj
 	@echo ... Core/Src/app_freertos.i
 	@echo ... Core/Src/app_freertos.s
@@ -1562,6 +1700,12 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.s
@@ -1616,6 +1760,9 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.s
 	@echo ... MT6701/MT6701.obj
 	@echo ... MT6701/MT6701.i
 	@echo ... MT6701/MT6701.s
@@ -1655,6 +1802,9 @@ help:
 	@echo ... UserAPP/UserAPP.obj
 	@echo ... UserAPP/UserAPP.i
 	@echo ... UserAPP/UserAPP.s
+	@echo ... Utils/adc_utils.obj
+	@echo ... Utils/adc_utils.i
+	@echo ... Utils/adc_utils.s
 	@echo ... Utils/math_utils.obj
 	@echo ... Utils/math_utils.i
 	@echo ... Utils/math_utils.s

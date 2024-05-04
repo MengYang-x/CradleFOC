@@ -11,6 +11,7 @@
 #include "SVPWM.h"
 #include "motor.h"
 #include "MT6701.h"
+#include "adc_utils.h"
 
 
 extern osThreadId myTask02_LOGHandle;
@@ -18,11 +19,13 @@ extern osThreadId myTask03_KEYHandle;
 extern osThreadId myTask04_FOCHandle;
 
 extern uint8_t flag_button;
+
 extern float Ta, Tb, Tc; // 三相占空比：0~1
 
 void setup() {
     log_DMA_TX("Init Start....\r\n");
     start_TIM_CHx();
+    init_adc();
     log_DMA_TX("Init Finish....\r\n");
     HAL_Delay(100);
 }
@@ -48,10 +51,13 @@ void task_log() {
 #endif
 
 #if LOG_MT6701
-//    float angle = mt6701.GetRawAngle();
-    float vel = mt6701.GetVelocity();
-    log_DMA_TX("angle:%f\r\n", vel);
+    //    float angle = mt6701.GetRawAngle();
+        float vel = mt6701.GetVelocity();
+        log_DMA_TX("angle:%f\r\n", vel);
+#endif
 
+#if LOG_ADC
+    adc_log();
 #endif
 
 }

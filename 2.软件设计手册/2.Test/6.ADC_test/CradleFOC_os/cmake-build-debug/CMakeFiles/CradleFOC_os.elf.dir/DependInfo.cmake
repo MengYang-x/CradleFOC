@@ -37,6 +37,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Utils"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/User/Desktop/CradleFOC_os/Core/Src/adc.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/app_freertos.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/dma.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/gpio.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj"
@@ -51,6 +52,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/tim.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Core/Src/usart.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
@@ -69,6 +72,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
@@ -115,6 +119,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/User/Desktop/CradleFOC_os/MT6701/MT6701.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/UserAPP/Serial.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj"
+  "C:/Users/User/Desktop/CradleFOC_os/Utils/adc_utils.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Utils/math_utils.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.obj"
   "C:/Users/User/Desktop/CradleFOC_os/Utils/time_utils.cpp" "C:/Users/User/Desktop/CradleFOC_os/cmake-build-debug/CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj"
   )

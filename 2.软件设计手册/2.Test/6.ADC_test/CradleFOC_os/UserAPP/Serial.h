@@ -15,9 +15,9 @@
 #define LOG_Stack 0
 #define LOG_Duty 0
 #define LOG_Current 0
-#define LOG_ADC 0
+#define LOG_ADC 1
 #define LOG_FOC 0
-#define LOG_MT6701 1
+#define LOG_MT6701 0
 
 void log_DMA_TX(const char *format, ...);
 

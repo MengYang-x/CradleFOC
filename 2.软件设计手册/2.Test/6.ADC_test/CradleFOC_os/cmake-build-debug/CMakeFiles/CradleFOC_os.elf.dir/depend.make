@@ -3,6 +3,48 @@
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Startup/startup_stm32g431cbux.s.obj: ../Core/Startup/startup_stm32g431cbux.s
 
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Core/Inc/adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Core/Inc/main.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
+
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Core/Inc/FreeRTOSConfig.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Core/Inc/main.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -20,6 +62,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/CMSIS/In
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -40,6 +84,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4x
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -74,6 +119,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/CMSIS/Include/cor
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -94,6 +141,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Dri
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/gpio.h
@@ -113,6 +161,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/CMSIS/Include/co
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -133,9 +183,11 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Dr
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Core/Inc/FreeRTOSConfig.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Core/Inc/adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Core/Inc/dma.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
@@ -157,6 +209,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Include/co
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -177,6 +231,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Dr
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
@@ -209,6 +264,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/CMSIS/Include/cor
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -229,6 +286,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Dri
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Core/Inc/main.h
@@ -247,6 +305,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/CMS
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -267,6 +327,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: ../Core/Src/stm32g4xx_hal_msp.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -284,6 +345,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Dr
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -304,6 +367,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Dr
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32g4xx_hal_timebase_tim.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Core/Inc/main.h
@@ -323,6 +387,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/CMSIS/In
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -343,6 +409,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4x
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj: ../Core/Src/stm32g4xx_it.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
@@ -364,6 +431,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/CMSI
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -384,6 +453,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM3
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj: ../Core/Src/system_stm32g4xx.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Core/Inc/main.h
@@ -403,6 +473,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cor
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -423,6 +495,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Dri
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Core/Inc/main.h
@@ -442,6 +515,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/CMSIS/Include/c
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -462,6 +537,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_D
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -479,6 +555,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -499,7 +577,88 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
+
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c
+
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
@@ -516,6 +675,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_c
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -536,6 +697,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_c
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -553,6 +715,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_d
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -573,6 +737,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_d
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -590,6 +755,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_d
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -610,6 +777,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_d
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -627,6 +795,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_e
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -647,6 +817,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_e
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -664,6 +835,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -684,6 +857,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -701,6 +875,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -721,6 +897,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -738,6 +915,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -758,6 +937,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -775,6 +955,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_g
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -795,6 +977,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_g
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -812,6 +995,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_p
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -832,6 +1017,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_p
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -849,6 +1035,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_p
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -869,6 +1057,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_p
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -886,6 +1075,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_r
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -906,6 +1097,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_r
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -923,6 +1115,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_r
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -943,6 +1137,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_r
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -960,6 +1155,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_s
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -980,6 +1177,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_s
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -997,6 +1195,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_s
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1017,6 +1217,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_s
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -1034,6 +1235,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1054,6 +1257,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -1071,6 +1275,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1091,6 +1297,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -1108,6 +1315,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_u
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1128,6 +1337,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_u
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -1145,6 +1355,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_u
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1165,7 +1377,49 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_u
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c
+
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Core/Inc/stm32g4xx_hal_conf.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj: ../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c
 
 CMakeFiles/CradleFOC_os.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Core/Inc/FreeRTOSConfig.h
 CMakeFiles/CradleFOC_os.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -1309,6 +1563,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/CMSIS/Include/co
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1329,6 +1585,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Dr
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Ctrl/Button.cpp
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj: ../Ctrl/Button.h
 
@@ -1356,6 +1613,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/CMSIS/Include/mpu
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv8.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1376,6 +1635,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Dri
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Middlewares/ST/ARM/DSP/Inc/arm_math.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Utils/math_utils.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj: ../Ctrl/SVPWM.cpp
@@ -1402,6 +1662,8 @@ CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/CMSIS/Include/
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1422,6 +1684,7 @@ CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Utils/math_utils.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../Utils/time_utils.h
 CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj: ../MT6701/MT6701.cpp
@@ -1444,6 +1707,8 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/CMSIS/Include
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1464,6 +1729,7 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj: ../UserAPP/Serial.cpp
 
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Core/Inc/FreeRTOSConfig.h
@@ -1485,6 +1751,8 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/CMSIS/Includ
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1505,6 +1773,7 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HA
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../MT6701/MT6701.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
@@ -1519,9 +1788,55 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Middlewares/Third_Pa
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
+CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../Utils/adc_utils.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../UserAPP/Serial.h
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../UserAPP/UserAPP.cpp
 CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj: ../UserAPP/UserAPP.h
+
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Core/Inc/adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Core/Inc/main.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Core/Inc/stm32g4xx_hal_conf.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Core/Inc/tim.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../UserAPP/Serial.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Utils/adc_utils.cpp
+CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj: ../Utils/adc_utils.h
 
 CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.obj: ../Utils/math_utils.cpp
 CMakeFiles/CradleFOC_os.elf.dir/Utils/math_utils.cpp.obj: ../Utils/math_utils.h
@@ -1541,6 +1856,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/CMSIS/Inclu
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
@@ -1561,6 +1878,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_H
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Utils/time_utils.cpp
 CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj: ../Utils/time_utils.h
 

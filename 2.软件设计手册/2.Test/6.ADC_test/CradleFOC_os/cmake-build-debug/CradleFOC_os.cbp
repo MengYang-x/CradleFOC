@@ -121,6 +121,9 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/FreeRTOSConfig.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/adc.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/dma.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -143,6 +146,9 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/usart.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/adc.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/app_freertos.c">
@@ -298,6 +304,12 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -358,6 +370,9 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -404,6 +419,12 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c">
@@ -458,6 +479,9 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/MT6701/MT6701.cpp">
@@ -575,6 +599,12 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/UserAPP/UserAPP.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Utils/adc_utils.cpp">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Utils/adc_utils.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Utils/math_utils.cpp">

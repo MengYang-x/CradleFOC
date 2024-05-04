@@ -5,4 +5,6 @@
 #ifndef CRADLEFOC_OS_ADC_UTILS_H
 #define CRADLEFOC_OS_ADC_UTILS_H
 
+void init_adc();
+void adc_log();
 #endif //CRADLEFOC_OS_ADC_UTILS_H
