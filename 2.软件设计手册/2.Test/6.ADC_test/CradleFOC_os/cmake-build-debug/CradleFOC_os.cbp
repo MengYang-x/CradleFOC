@@ -133,6 +133,9 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/main.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/opamp.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Inc/spi.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -161,6 +164,9 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/main.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/opamp.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Core/Src/spi.c">
@@ -340,6 +346,12 @@
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
@@ -449,6 +461,12 @@
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c">
+			<Option target="CradleFOC_os.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c">
 			<Option target="CradleFOC_os.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c">

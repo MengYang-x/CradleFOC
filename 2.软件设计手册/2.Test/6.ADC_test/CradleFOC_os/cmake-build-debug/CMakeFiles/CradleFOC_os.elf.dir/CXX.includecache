@@ -14,6 +14,10 @@ main.h
 stm32g4xx_hal.h
 ../Core/Inc/stm32g4xx_hal.h
 
+../Core/Inc/opamp.h
+main.h
+../Core/Inc/main.h
+
 ../Core/Inc/stm32g4xx_hal_conf.h
 stm32g4xx_hal_rcc.h
 ../Core/Inc/stm32g4xx_hal_rcc.h
@@ -248,6 +252,16 @@ stm32g4xx_hal_gpio_ex.h
 stm32g4xx_hal_def.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
 
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+stm32g4xx_hal_def.h
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+stm32g4xx_hal_opamp_ex.h
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
+
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
+stm32g4xx_hal_def.h
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 stm32g4xx_hal_def.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
@@ -317,6 +331,8 @@ adc.h
 C:/Users/User/Desktop/CradleFOC_os/Utils/adc.h
 Serial.h
 C:/Users/User/Desktop/CradleFOC_os/Utils/Serial.h
+opamp.h
+C:/Users/User/Desktop/CradleFOC_os/Utils/opamp.h
 
 C:/Users/User/Desktop/CradleFOC_os/Utils/adc_utils.h
 

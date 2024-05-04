@@ -10,6 +10,7 @@
 #define _PI_2 1.57079632679f
 #define _3PI_2 4.71238898038f
 #define _sqrt3 1.7320508f
+#define _sqrt3_2 0.866025403784f
 
 #define _constrain(amt, low, high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
 

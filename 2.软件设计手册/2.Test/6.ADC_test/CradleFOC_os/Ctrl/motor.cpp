@@ -5,8 +5,7 @@
 #include "motor.h"
 #include "SVPWM.h"
 #include "stdint.h"
-
-
+#include "MT6701.h"
 
 /**
  * @brief 开环运行测试
@@ -14,8 +13,7 @@
  * @param velocity 目标转速(rad/s)
  * @retval 无
  */
-void open_velocity_test1(float velocity)
-{
+void open_velocity_test1(float velocity) {
     static const float Uq = 2.0f;
     static const float Ud = 0.0f;
 
@@ -26,3 +24,4 @@ void open_velocity_test1(float velocity)
 
     setPhaseVoltage(Uq, Ud, el_angle);
 }
+

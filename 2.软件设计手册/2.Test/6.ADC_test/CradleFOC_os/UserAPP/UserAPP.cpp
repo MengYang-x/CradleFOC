@@ -13,7 +13,6 @@
 #include "MT6701.h"
 #include "adc_utils.h"
 
-
 extern osThreadId myTask02_LOGHandle;
 extern osThreadId myTask03_KEYHandle;
 extern osThreadId myTask04_FOCHandle;
@@ -53,7 +52,8 @@ void task_log() {
 #if LOG_MT6701
     //    float angle = mt6701.GetRawAngle();
         float vel = mt6701.GetVelocity();
-        log_DMA_TX("angle:%f\r\n", vel);
+        float el_angle = mt6701.GetElAngle();
+       log_DMA_TX("[angle,el_angle]:%f,%f\r\n",vel,el_angle);
 #endif
 
 #if LOG_ADC
@@ -80,7 +80,7 @@ void task_key() {
 
 // FOC电机运行控制
 void task_FOC() {
-    open_velocity_test1(50);
+    open_velocity_test1(30);
 }
 
 

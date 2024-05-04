@@ -60,3 +60,4 @@ void setPhaseVoltage(float Uq, float Ud, float el_angle) {
     TIM1->CCR2 = Tb * PWM_ARR;
     TIM1->CCR3 = Tc * PWM_ARR;
 }
+

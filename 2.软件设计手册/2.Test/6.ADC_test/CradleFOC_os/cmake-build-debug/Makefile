@@ -277,6 +277,33 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/opamp.obj: Core/Src/opamp.c.obj
+
+.PHONY : Core/Src/opamp.obj
+
+# target to build an object file
+Core/Src/opamp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/opamp.c.obj
+.PHONY : Core/Src/opamp.c.obj
+
+Core/Src/opamp.i: Core/Src/opamp.c.i
+
+.PHONY : Core/Src/opamp.i
+
+# target to preprocess a source file
+Core/Src/opamp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/opamp.c.i
+.PHONY : Core/Src/opamp.c.i
+
+Core/Src/opamp.s: Core/Src/opamp.c.s
+
+.PHONY : Core/Src/opamp.s
+
+# target to generate assembly for a file
+Core/Src/opamp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Core/Src/opamp.c.s
+.PHONY : Core/Src/opamp.c.s
+
 Core/Src/spi.obj: Core/Src/spi.c.obj
 
 .PHONY : Core/Src/spi.obj
@@ -906,6 +933,60 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.s: Drivers/STM32G4xx_HAL_Dri
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.i
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.s
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.i
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.s
+
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CradleFOC_os.elf.dir\build.make CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
 
@@ -1660,6 +1741,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/opamp.obj
+	@echo ... Core/Src/opamp.i
+	@echo ... Core/Src/opamp.s
 	@echo ... Core/Src/spi.obj
 	@echo ... Core/Src/spi.i
 	@echo ... Core/Src/spi.s
@@ -1730,6 +1814,12 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.s

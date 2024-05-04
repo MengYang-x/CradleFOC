@@ -33,6 +33,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/adc.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -75,6 +77,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/app_freertos.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -132,6 +136,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/dma.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -174,6 +180,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/gpio.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -192,6 +200,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj
  ../Core/Inc/dma.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
+ ../Core/Inc/opamp.h
  ../Core/Inc/spi.h
  ../Core/Inc/stm32g4xx_hal_conf.h
  ../Core/Inc/tim.h
@@ -222,6 +231,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -247,6 +258,50 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/main.c.obj
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
  C:/Users/User/Desktop/CradleFOC_os/Core/Src/main.c
+CMakeFiles/CradleFOC_os.elf.dir/Core/Src/opamp.c.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/opamp.h
+ ../Core/Inc/stm32g4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+ C:/Users/User/Desktop/CradleFOC_os/Core/Src/opamp.c
 CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj
  ../Core/Inc/main.h
  ../Core/Inc/spi.h
@@ -277,6 +332,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/spi.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -318,6 +375,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -358,6 +417,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -400,6 +461,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/stm32g4xx_it.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -444,6 +507,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/system_stm32g4xx.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -486,6 +551,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/tim.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -528,6 +595,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Core/Src/usart.c.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -568,6 +637,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -608,6 +679,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_a
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -648,6 +721,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_a
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -688,6 +763,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_c
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -728,6 +805,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_d
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -768,6 +847,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_d
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -808,6 +889,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_e
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -848,6 +931,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -888,6 +973,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -928,6 +1015,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_f
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -968,6 +1057,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_g
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -980,6 +1071,90 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_g
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
  C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c.obj
+ ../Core/Inc/stm32g4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+ C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c
+CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c.obj
+ ../Core/Inc/stm32g4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h
+ C:/Users/User/Desktop/CradleFOC_os/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c
 CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
  ../Core/Inc/stm32g4xx_hal_conf.h
  ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
@@ -1008,6 +1183,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_p
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1048,6 +1225,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_p
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1088,6 +1267,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_r
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1128,6 +1309,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_r
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1168,6 +1351,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_s
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1208,6 +1393,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_s
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1248,6 +1435,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1288,6 +1477,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_t
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1328,6 +1519,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_u
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1368,6 +1561,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_u
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1408,6 +1603,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_ad
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1576,6 +1773,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/Button.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1626,6 +1825,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1642,6 +1843,7 @@ CMakeFiles/CradleFOC_os.elf.dir/Ctrl/SVPWM.cpp.obj
  C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.cpp
  C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.h
 CMakeFiles/CradleFOC_os.elf.dir/Ctrl/motor.cpp.obj
+ ../MT6701/MT6701.h
  C:/Users/User/Desktop/CradleFOC_os/Ctrl/SVPWM.h
  C:/Users/User/Desktop/CradleFOC_os/Ctrl/motor.cpp
  C:/Users/User/Desktop/CradleFOC_os/Ctrl/motor.h
@@ -1675,6 +1877,8 @@ CMakeFiles/CradleFOC_os.elf.dir/MT6701/MT6701.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1720,6 +1924,8 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/Serial.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1764,6 +1970,8 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1796,6 +2004,7 @@ CMakeFiles/CradleFOC_os.elf.dir/UserAPP/UserAPP.cpp.obj
 CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj
  ../Core/Inc/adc.h
  ../Core/Inc/main.h
+ ../Core/Inc/opamp.h
  ../Core/Inc/stm32g4xx_hal_conf.h
  ../Core/Inc/tim.h
  ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
@@ -1824,6 +2033,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Utils/adc_utils.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
@@ -1869,6 +2080,8 @@ CMakeFiles/CradleFOC_os.elf.dir/Utils/time_utils.cpp.obj
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.h
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
